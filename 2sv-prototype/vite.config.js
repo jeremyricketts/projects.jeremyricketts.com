@@ -5,9 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/2sv-prototype/',
-  build: {
-    outDir: '../2sv-prototype'
-  },
   preview: {
     allowedHosts: ['.ngrok-free.app']
   }

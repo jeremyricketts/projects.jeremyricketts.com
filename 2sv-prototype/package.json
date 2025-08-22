@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "npm run build && rm -rf ../2sv-prototype/assets ../2sv-prototype/index.html ../2sv-prototype/vite.svg && cp -r dist/* ../2sv-prototype/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
