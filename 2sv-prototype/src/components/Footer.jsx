@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="flex items-center space-x-4 text-2xs text-gray-500">
             <span>Org 0444595</span>
             <span className="text-gray-300">|</span>
-            <span>User P12875716</span>
+            <span>User J12875716</span>
           </div>
         </div>
       </div>
