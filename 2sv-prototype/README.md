@@ -30,22 +30,7 @@ This project serves as a testing ground for prototyping new features and functio
 
 3. Build for production:
    ```bash
-   npm run build
+   npm run deploy
    ```
+   Note: Usually you'd use `npm run build` but I needed some custom config in Vite to get it to run in a subdomain
 
-## Notes
-
-To get it up on ngrok: 
-```bash
-vite preview
-```
-
-```bash
-# In a new terminal window
-ngrok http 4173
-```
-
-When the website is being served from Jeremy's laptop, it'll be at: 
-```
-https://####.ngrok-free.app
-```
